@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <div class="mui-row">
+        <div class="mui-col-sm-10 mui-col-sm-offset-1">
+            <br>
+            <br>
+            <div class="mui--text-dark-secondary mui--text-body2">CONTACT ME</div>
+            <div class="mui-divider"></div>
+            <br>
+            <form class="mui-form">
+                <legend>Talk to me!</legend>
+                <div class="mui-textfield mui-textfield--float-label">
+                    <input type="text">
+                    <label>Name</label>
+                </div>
+                <div class="mui-textfield mui-textfield--float-label">
+                    <input type="text">
+                    <label>Favorite Color</label>
+                </div>
+                <div class="mui-textfield mui-textfield--float-label">
+                    <textarea></textarea>
+                    <label>Message</label>
+                </div>
+                <button type="submit" class="mui-btn mui-btn--raised">Submit</button>
+            </form>
+        </div>
+    </div>
+{% endblock %}
