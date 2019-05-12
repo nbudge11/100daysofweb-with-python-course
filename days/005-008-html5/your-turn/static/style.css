@@ -1,0 +1,43 @@
+div {
+    text-align: center;
+}
+
+table {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    border: 0;
+}
+
+#search {
+    background-color: #eeeeee;
+    padding-bottom: 20px;
+}
+
+#specialsearch {
+    background-color: #7ee5da;
+    width: 37%;
+}
+
+#about {
+    background-color: #70ccc2;
+}
+
+#subscribe {
+    background-color: #62b3aa;
+}
+
+.smaller-text {
+    font-size: smaller;
+}
+
+#subscribe-button {
+    margin-right: 10px;
+}
+
+#copyright {
+    text-align: center;
+    margin-top: 20px;
+    font-size: smaller;
+}
